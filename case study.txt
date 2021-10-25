@@ -1,0 +1,43 @@
+table 1:
+name:admin details
+
+field:
+1.admin id(primary key)
+2.admin name
+3.dep name
+
+
+table 2:
+name:task details
+
+fields:
+1.task id (primary key)
+2.task name 
+3.despcriction
+3.status 
+3.priority 
+6.assign date 
+7.complection date 
+8.admin id(foregin key)
+
+
+TABLE 3:
+NAME: employee details
+
+fields:
+1.employee id(primary key)
+2.employee name
+3.dep name
+4.admin id(forgin key)
+5.task id (forgin key)
+
+
+table 4:
+name notes details
+
+field:
+1.note id(primary key)
+2.task id(foreigin key)
+3.admin id(foregin key)
+4.notes details
+5.books mark
